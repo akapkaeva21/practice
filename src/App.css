@@ -1,38 +1,23 @@
+@import url(https://fonts.google.com/share?selection.family=Wittgenstein:ital,wght@0,400..900;1,400..900);
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  font-family: ' Wittgenstein', sans-serif;
+}
+/*font-family: "Wittgenstein", serif;*/
+/*font-optical-sizing: auto;*/
+/*font-weight: <weight>;*/
+/*font-style: normal;*/
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input, button{
+  outline: none;
+  border: none;
 }

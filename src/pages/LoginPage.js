@@ -1,6 +1,9 @@
+import './LoginPage.css';
+
+
 export const LoginPage=()=>{
     return(
-        <form className="loginform">
+        <form className="loginForm">
             <h1>
                 Enter
             </h1>
