@@ -1,0 +1,20 @@
+.logout {
+    display: flex;
+    justify-content: left;
+    padding: 110px 10px 10px;
+}
+
+.logout button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #332417;
+}
+
+.logout svg{
+    width: 20%;
+    margin-right: 10px;
+
+}

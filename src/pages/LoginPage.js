@@ -1,22 +1,21 @@
 import './LoginPage.css';
 
 
-export const LoginPage=()=>{
+export const LoginPage=({setIsLoggedIn})=>{
+    const logIn=()=> setIsLoggedIn(true)
     return(
-        <form className="loginForm">
+        <form onSubmit={logIn} className="loginForm">
             <h1>
                 Enter
             </h1>
             <div>
-                <input type="text" placeholder="Login" name="login"/>
+                <input type="text" placeholder="Login" name="login" required/>
             </div>
             <div>
-                <input type="password" placeholder="Password" name="password"/>
+                <input type="password" placeholder="Password" name="password" required/>
             </div>
             <div>
-                <button>
-                    Entered
-                </button>
+                <button type='submit'>Entered</button>
             </div>
         </form>
     )

@@ -1,10 +1,12 @@
 import {SideBar} from "./SideBar";
+import {Posts} from "./Posts";
 
 
-export const MainBlock=()=>{
+export const MainBlock=({setIsLoggedIn})=>{
     return(
         <>
-            <SideBar/>
+            <SideBar setIsLoggedIn={setIsLoggedIn}/>
+            <Posts/>
         </>
     )
 }

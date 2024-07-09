@@ -1,15 +1,15 @@
-import './SideBar.css';
-import exit from "../images/exit.png";
+import './Logout.css';
+import {ReactComponent as Exit} from "../images/exit.svg";
 import React from "react";
 
-export const Logout =()=>{
+export const Logout =({setIsLoggedIn})=>{
+    const  logout= ()=> setIsLoggedIn(false)
     return (
-        <section className="sidebarButton">
-            <button>
-                <img src={exit} alt="Logout"/>
-                Exit
+        <section className="logout">
+            <button onClick={logout}>
+               <Exit/>
+                <span>Logout</span>
             </button>
         </section>
-
-    )
-}
+    );
+};

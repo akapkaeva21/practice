@@ -23,8 +23,10 @@ input, button{
   border: none;
 }
 
-
-
+button{
+  background: none;
+  cursor: pointer;
+}
 .avatar {
   width: 100%;
   height: 100%;
