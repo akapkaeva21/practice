@@ -1,6 +1,7 @@
 import './App.css';
 import {LoginPage} from "./pages/LoginPage";
 import {MainBlock} from "./components/MainBlock";
+import {User} from "./components/User";
 
 
 function App(){
