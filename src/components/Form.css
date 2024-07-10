@@ -1,0 +1,36 @@
+.search {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #332417;
+    padding: 2px 5px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #332417;
+}
+
+.search img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.search input{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

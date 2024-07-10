@@ -6,7 +6,7 @@
 
 body{
   margin:0;
-  font-family: ' Wittgenstein', sans-serif;
+  font-family: 'Wittgenstein', serif;
 }
 /*font-family: "Wittgenstein", serif;*/
 /*font-optical-sizing: auto;*/
@@ -16,11 +16,14 @@ body{
 .App {
   text-align: center;
   height: 100vh;
+  font-family: 'Wittgenstein', serif;
 }
 
 input, button{
   outline: none;
   border: none;
+  font-family: 'Wittgenstein', serif;
+  font-size: 15px;
 }
 
 button{
@@ -38,3 +41,6 @@ button{
   object-fit: cover;
 }
 
+h1{
+  font-size: 30px;
+}

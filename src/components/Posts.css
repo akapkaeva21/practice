@@ -1,0 +1,17 @@
+.posts{
+    width: calc(100% - 300px);
+    margin-left: 275px;
+    padding: 10px;
+}
+
+.posts h1{
+    margin: 0px;
+}
+
+.postsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
