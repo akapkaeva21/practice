@@ -1,11 +1,5 @@
-.posts{
-    width: calc(100% - 300px);
-    margin-left: 275px;
-    padding: 10px;
-}
-
 .posts h1{
-    margin: 0px;
+    font-size: 38px;
 }
 
 .postsHeader {
@@ -13,5 +7,52 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-left: 35px;
 }
+
+.postsPage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 22px;
+    height: 450px;
+}
+
+.post a{
+    text-decoration: underline;
+    color: rgba(56, 31, 2, 0.92);
+}
+
+.post img{
+    width: 300px;
+}
+
+.post p{
+    text-align: left;
+    width: 50%;
+    height: 180px;
+}
+
+.post svg{
+    margin-top: -300px;
+    margin-bottom: -20px;
+    width:30px;
+}
+
+
+
+
 

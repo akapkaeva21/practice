@@ -16,6 +16,7 @@ body{
 .App {
   text-align: center;
   height: 100vh;
+  color: #332417;
   font-family: 'Wittgenstein', serif;
 }
 
@@ -23,7 +24,7 @@ input, button{
   outline: none;
   border: none;
   font-family: 'Wittgenstein', serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 button{
