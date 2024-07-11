@@ -1,13 +1,11 @@
 import React from 'react';
 import './Navigation.css';
-import './SideBar.css'
+import './SideBar.css';
 import book from "../images/book.png";
 import like from "../images/like.png";
 import settings from "../images/settings.png";
 
-
-
-export const Navigation =()=>{
+export const Navigation =({likedPosts})=>{
     return (
         <section className="nav">
             <nav>
@@ -17,7 +15,7 @@ export const Navigation =()=>{
                 </a>
                 <a href="/">
                     <img src={like} alt="Favorites"/>
-                    <span>Favorite</span>
+                    <span>Favorite ({likedPosts.length})</span> {/* Показываем количество лайков в скобках */}
                 </a>
                 <a href="/">
                     <img src={settings} alt="Settings"/>
